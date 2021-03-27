@@ -17,7 +17,7 @@ namespace async_await
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form8());
+            Application.Run(new Form9());
         }
     }
 }
