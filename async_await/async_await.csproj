@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form9.cs">
       <SubType>Form</SubType>
     </Compile>
