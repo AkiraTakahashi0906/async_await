@@ -12,6 +12,9 @@ namespace async_await
     {
         static HttpClient client = new HttpClient();
 
+        //python
+        //return jsonify([{"language":"太郎1","language2":"M"},{"language":"太郎2","language2":"M"}])
+
         static async Task<List<MlEntity>> GetProductAsync(string path)
         {
             List<MlEntity> product = null;
